@@ -1,0 +1,6 @@
+framework module JDPopupAnimationView {
+  umbrella header "JDPopupAnimationView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03B11595DBD7F9783456EAA4A5506EDC /* JDPopupAnimationView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 366651B375852A36E3DE215D192FFAF8 /* JDPopupAnimationView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		071476FF132705A6DE0ED9E443DC88D8 /* JDPopupAnimationCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A31D98672BF6E2B12FAC4A88A884F98 /* JDPopupAnimationCover.m */; };
+		0FB632FAB8975CD4E3CBB0AF70121E8A /* JDPopupAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = FA64E4C75F3903CD369A1808FBAA4A77 /* JDPopupAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29559B464373E81D61CBA80B33338637 /* Pods-JDPopupAnimationView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC594761AFC388B2DDBC6C07ED6081A /* Pods-JDPopupAnimationView_Example-dummy.m */; };
+		61E7C20468C4A73DE8ECF8379AE4B3BC /* Pods-JDPopupAnimationView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0696B0FA26183E91B137AA1B2BA1ED12 /* Pods-JDPopupAnimationView_Tests-dummy.m */; };
+		69B2BE72BA32C834AC110203CDE8AE33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		6C8A7DAF669014AD6B616A26A3B47577 /* JDPopupAnimationView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B685876E1AD37AA904FA642036AC46B /* JDPopupAnimationView-dummy.m */; };
+		706CA57C455C5A70415D982FA678B51A /* JDPopupAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E06C3B5AC504B48336DEDE2CF0F1FA73 /* JDPopupAnimationView.m */; };
+		711170E8A04FBE3BFE78B7DD432415C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		91127F9E6069B8AB46CD0F7226978F5E /* JDPopupAnimationCover.h in Headers */ = {isa = PBXBuildFile; fileRef = 946A9B973DEA4EB888779940B8BB46F1 /* JDPopupAnimationCover.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBA81FD99878F4C68FD880FF51A435B4 /* Pods-JDPopupAnimationView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2A1E55D3E0F0F8B993D1419616D478 /* Pods-JDPopupAnimationView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBC95A7E7DBB97A571B858B12FE417A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		FC1A28C6D7100F3F71B0E1E30BDD5526 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		FE425D15D509E8E50DC083DA525BCFF6 /* Pods-JDPopupAnimationView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0537DBAC6196819E645FC01FB93F767E /* Pods-JDPopupAnimationView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B13A56A6F9DC2A8F92F56B76CA97A4F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B502C7A3B0867D0A4FC208B6B2EAD63D;
+			remoteInfo = "Pods-JDPopupAnimationView_Example";
+		};
+		F063207D149BE9003101EC3AA53627C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D531A73BA08B8696DC33BDCE6306F619;
+			remoteInfo = JDPopupAnimationView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0537DBAC6196819E645FC01FB93F767E /* Pods-JDPopupAnimationView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JDPopupAnimationView_Example-umbrella.h"; sourceTree = "<group>"; };
+		0696B0FA26183E91B137AA1B2BA1ED12 /* Pods-JDPopupAnimationView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JDPopupAnimationView_Tests-dummy.m"; sourceTree = "<group>"; };
+		072B9B5CCEC9AD49EC0F606A331A77E0 /* Pods-JDPopupAnimationView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JDPopupAnimationView_Example-Info.plist"; sourceTree = "<group>"; };
+		0F01B52CD52FE713498AAA00C93E5AA6 /* Pods-JDPopupAnimationView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JDPopupAnimationView_Example.modulemap"; sourceTree = "<group>"; };
+		17B13DD2499A8184C6B0DC2AF742C3FA /* Pods-JDPopupAnimationView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDPopupAnimationView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1D7843715EB830EB1979B3B5F6D49B4F /* JDPopupAnimationView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JDPopupAnimationView-Info.plist"; sourceTree = "<group>"; };
+		2B685876E1AD37AA904FA642036AC46B /* JDPopupAnimationView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JDPopupAnimationView-dummy.m"; sourceTree = "<group>"; };
+		2F4E06E00277523731FC480D63C180FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		366651B375852A36E3DE215D192FFAF8 /* JDPopupAnimationView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDPopupAnimationView-umbrella.h"; sourceTree = "<group>"; };
+		4027F82FC253CAC8A8B43A34D89228D4 /* Pods_JDPopupAnimationView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDPopupAnimationView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		46A81E056971AB86285AD538EDB8274D /* JDPopupAnimationView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDPopupAnimationView-prefix.pch"; sourceTree = "<group>"; };
+		475DC3370DC1FCCD074599EED6100B30 /* Pods-JDPopupAnimationView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JDPopupAnimationView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5CC594761AFC388B2DDBC6C07ED6081A /* Pods-JDPopupAnimationView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JDPopupAnimationView_Example-dummy.m"; sourceTree = "<group>"; };
+		5F23E69751120E51912803F335D83EBD /* Pods-JDPopupAnimationView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JDPopupAnimationView_Tests-Info.plist"; sourceTree = "<group>"; };
+		8A4E4A0C64939351E1D65C3AEEA84E91 /* Pods-JDPopupAnimationView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDPopupAnimationView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9169857847228C75CAF725258F7BC1E5 /* JDPopupAnimationView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JDPopupAnimationView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		946A9B973DEA4EB888779940B8BB46F1 /* JDPopupAnimationCover.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JDPopupAnimationCover.h; path = JDPopupAnimationView/Classes/JDPopupAnimationCover.h; sourceTree = "<group>"; };
+		9A31D98672BF6E2B12FAC4A88A884F98 /* JDPopupAnimationCover.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JDPopupAnimationCover.m; path = JDPopupAnimationView/Classes/JDPopupAnimationCover.m; sourceTree = "<group>"; };
+		9CC140F17F4F3EC3175CC1030FA6F21A /* JDPopupAnimationView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JDPopupAnimationView.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A142A186B0DF2E02CA067CF5184CFFD1 /* JDPopupAnimationView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JDPopupAnimationView.modulemap; sourceTree = "<group>"; };
+		A89EEED55DBC5F9D3301BF84867F1E0A /* Pods-JDPopupAnimationView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JDPopupAnimationView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B411D6632961B412FFB947B174555137 /* Pods-JDPopupAnimationView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDPopupAnimationView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B8CCAF025AED27F6A68988F613FB0380 /* Pods_JDPopupAnimationView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDPopupAnimationView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE599C16AC846D3CBD26FE54628D6ADC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C530E91D1058165BE1B38FF0F6B56216 /* Pods-JDPopupAnimationView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDPopupAnimationView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD13AE810AA17A28D0ECA21CC6E0C58A /* Pods-JDPopupAnimationView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDPopupAnimationView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D05E8C721F9BAB482CC91E4FB95CFA31 /* Pods-JDPopupAnimationView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JDPopupAnimationView_Tests.modulemap"; sourceTree = "<group>"; };
+		DB09A42BF950106411F3A077E9D503D8 /* JDPopupAnimationView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JDPopupAnimationView.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		DB2A1E55D3E0F0F8B993D1419616D478 /* Pods-JDPopupAnimationView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JDPopupAnimationView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E06C3B5AC504B48336DEDE2CF0F1FA73 /* JDPopupAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JDPopupAnimationView.m; path = JDPopupAnimationView/Classes/JDPopupAnimationView.m; sourceTree = "<group>"; };
+		E1D9F755521A092E058DD2B1B9F7552A /* Pods-JDPopupAnimationView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JDPopupAnimationView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA64E4C75F3903CD369A1808FBAA4A77 /* JDPopupAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JDPopupAnimationView.h; path = JDPopupAnimationView/Classes/JDPopupAnimationView.h; sourceTree = "<group>"; };
+		FA876C1E610A5EED433FCDFDAB344BF2 /* Pods-JDPopupAnimationView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JDPopupAnimationView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E44985113E52AE1AFA8A09E1DABCDA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B2BE72BA32C834AC110203CDE8AE33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E5016156B04FB18763D04272778844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1A28C6D7100F3F71B0E1E30BDD5526 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD838BC14C13A48AD0A9C7E6D2E9F03B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711170E8A04FBE3BFE78B7DD432415C9 /* Foundation.framework in Frameworks */,
+				EBC95A7E7DBB97A571B858B12FE417A6 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047F74F367D7A02BA9508618388A4A59 /* Pods-JDPopupAnimationView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0F01B52CD52FE713498AAA00C93E5AA6 /* Pods-JDPopupAnimationView_Example.modulemap */,
+				475DC3370DC1FCCD074599EED6100B30 /* Pods-JDPopupAnimationView_Example-acknowledgements.markdown */,
+				FA876C1E610A5EED433FCDFDAB344BF2 /* Pods-JDPopupAnimationView_Example-acknowledgements.plist */,
+				5CC594761AFC388B2DDBC6C07ED6081A /* Pods-JDPopupAnimationView_Example-dummy.m */,
+				17B13DD2499A8184C6B0DC2AF742C3FA /* Pods-JDPopupAnimationView_Example-frameworks.sh */,
+				072B9B5CCEC9AD49EC0F606A331A77E0 /* Pods-JDPopupAnimationView_Example-Info.plist */,
+				0537DBAC6196819E645FC01FB93F767E /* Pods-JDPopupAnimationView_Example-umbrella.h */,
+				CD13AE810AA17A28D0ECA21CC6E0C58A /* Pods-JDPopupAnimationView_Example.debug.xcconfig */,
+				8A4E4A0C64939351E1D65C3AEEA84E91 /* Pods-JDPopupAnimationView_Example.release.xcconfig */,
+			);
+			name = "Pods-JDPopupAnimationView_Example";
+			path = "Target Support Files/Pods-JDPopupAnimationView_Example";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F7A5A9E659392F6AA41E2CAFAF56814 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9169857847228C75CAF725258F7BC1E5 /* JDPopupAnimationView.framework */,
+				4027F82FC253CAC8A8B43A34D89228D4 /* Pods_JDPopupAnimationView_Example.framework */,
+				B8CCAF025AED27F6A68988F613FB0380 /* Pods_JDPopupAnimationView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B57918F5AC1EC8CC451717DC45C75DA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				892A78A67339B5E1D759010A51D380A6 /* JDPopupAnimationView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		892A78A67339B5E1D759010A51D380A6 /* JDPopupAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				946A9B973DEA4EB888779940B8BB46F1 /* JDPopupAnimationCover.h */,
+				9A31D98672BF6E2B12FAC4A88A884F98 /* JDPopupAnimationCover.m */,
+				FA64E4C75F3903CD369A1808FBAA4A77 /* JDPopupAnimationView.h */,
+				E06C3B5AC504B48336DEDE2CF0F1FA73 /* JDPopupAnimationView.m */,
+				A92A9E4BDA6198EE3E0B6FCE7E18E4D6 /* Pod */,
+				E23127C8ED7131BBA14136F5624B7C8E /* Support Files */,
+			);
+			name = JDPopupAnimationView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A92A9E4BDA6198EE3E0B6FCE7E18E4D6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DB09A42BF950106411F3A077E9D503D8 /* JDPopupAnimationView.podspec */,
+				BE599C16AC846D3CBD26FE54628D6ADC /* LICENSE */,
+				2F4E06E00277523731FC480D63C180FB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC6D8D04330343516B0A9F48E08487AD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				047F74F367D7A02BA9508618388A4A59 /* Pods-JDPopupAnimationView_Example */,
+				F99F889857B9CDC1B350AFA1734F391A /* Pods-JDPopupAnimationView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4B57918F5AC1EC8CC451717DC45C75DA /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				1F7A5A9E659392F6AA41E2CAFAF56814 /* Products */,
+				BC6D8D04330343516B0A9F48E08487AD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E23127C8ED7131BBA14136F5624B7C8E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A142A186B0DF2E02CA067CF5184CFFD1 /* JDPopupAnimationView.modulemap */,
+				9CC140F17F4F3EC3175CC1030FA6F21A /* JDPopupAnimationView.xcconfig */,
+				2B685876E1AD37AA904FA642036AC46B /* JDPopupAnimationView-dummy.m */,
+				1D7843715EB830EB1979B3B5F6D49B4F /* JDPopupAnimationView-Info.plist */,
+				46A81E056971AB86285AD538EDB8274D /* JDPopupAnimationView-prefix.pch */,
+				366651B375852A36E3DE215D192FFAF8 /* JDPopupAnimationView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JDPopupAnimationView";
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F99F889857B9CDC1B350AFA1734F391A /* Pods-JDPopupAnimationView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D05E8C721F9BAB482CC91E4FB95CFA31 /* Pods-JDPopupAnimationView_Tests.modulemap */,
+				A89EEED55DBC5F9D3301BF84867F1E0A /* Pods-JDPopupAnimationView_Tests-acknowledgements.markdown */,
+				E1D9F755521A092E058DD2B1B9F7552A /* Pods-JDPopupAnimationView_Tests-acknowledgements.plist */,
+				0696B0FA26183E91B137AA1B2BA1ED12 /* Pods-JDPopupAnimationView_Tests-dummy.m */,
+				5F23E69751120E51912803F335D83EBD /* Pods-JDPopupAnimationView_Tests-Info.plist */,
+				DB2A1E55D3E0F0F8B993D1419616D478 /* Pods-JDPopupAnimationView_Tests-umbrella.h */,
+				C530E91D1058165BE1B38FF0F6B56216 /* Pods-JDPopupAnimationView_Tests.debug.xcconfig */,
+				B411D6632961B412FFB947B174555137 /* Pods-JDPopupAnimationView_Tests.release.xcconfig */,
+			);
+			name = "Pods-JDPopupAnimationView_Tests";
+			path = "Target Support Files/Pods-JDPopupAnimationView_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		472F99FD9F5C6F2C77DB86DF076E5F57 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE425D15D509E8E50DC083DA525BCFF6 /* Pods-JDPopupAnimationView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90FAFCB8E43FB4B345DAF8FEBBA18E4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA81FD99878F4C68FD880FF51A435B4 /* Pods-JDPopupAnimationView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC093BAE6AFA1099412AF5601EC9E0F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91127F9E6069B8AB46CD0F7226978F5E /* JDPopupAnimationCover.h in Headers */,
+				03B11595DBD7F9783456EAA4A5506EDC /* JDPopupAnimationView-umbrella.h in Headers */,
+				0FB632FAB8975CD4E3CBB0AF70121E8A /* JDPopupAnimationView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B502C7A3B0867D0A4FC208B6B2EAD63D /* Pods-JDPopupAnimationView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AD96AE554755CE73C1FBF6CCC3CC9BE /* Build configuration list for PBXNativeTarget "Pods-JDPopupAnimationView_Example" */;
+			buildPhases = (
+				472F99FD9F5C6F2C77DB86DF076E5F57 /* Headers */,
+				226EC569615B5C1615A2B472EFA263BF /* Sources */,
+				5E44985113E52AE1AFA8A09E1DABCDA9 /* Frameworks */,
+				D183401CC7658256F872FA8C663B2A88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BF78A9B037444DFF27719A5665CBDED /* PBXTargetDependency */,
+			);
+			name = "Pods-JDPopupAnimationView_Example";
+			productName = "Pods-JDPopupAnimationView_Example";
+			productReference = 4027F82FC253CAC8A8B43A34D89228D4 /* Pods_JDPopupAnimationView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D531A73BA08B8696DC33BDCE6306F619 /* JDPopupAnimationView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61CBFFAB3459A831D47A8E914333FAC6 /* Build configuration list for PBXNativeTarget "JDPopupAnimationView" */;
+			buildPhases = (
+				FC093BAE6AFA1099412AF5601EC9E0F4 /* Headers */,
+				61B2A63EBB8729043FE47D1407D25701 /* Sources */,
+				DD838BC14C13A48AD0A9C7E6D2E9F03B /* Frameworks */,
+				8C23A5C9ABADBD87984B7E9CCBF3D683 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDPopupAnimationView;
+			productName = JDPopupAnimationView;
+			productReference = 9169857847228C75CAF725258F7BC1E5 /* JDPopupAnimationView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB68F56C4BD86FA067282346E9B49B39 /* Pods-JDPopupAnimationView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A2CD35035F2AD5CA29D4E25463F6C34 /* Build configuration list for PBXNativeTarget "Pods-JDPopupAnimationView_Tests" */;
+			buildPhases = (
+				90FAFCB8E43FB4B345DAF8FEBBA18E4D /* Headers */,
+				099AA1DDF8CC6E971C3971F2E7E0105E /* Sources */,
+				79E5016156B04FB18763D04272778844 /* Frameworks */,
+				47384BE6A468576357C10D64F85E42CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A13AB660990173D572DCA0161679EA5 /* PBXTargetDependency */,
+			);
+			name = "Pods-JDPopupAnimationView_Tests";
+			productName = "Pods-JDPopupAnimationView_Tests";
+			productReference = B8CCAF025AED27F6A68988F613FB0380 /* Pods_JDPopupAnimationView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1F7A5A9E659392F6AA41E2CAFAF56814 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D531A73BA08B8696DC33BDCE6306F619 /* JDPopupAnimationView */,
+				B502C7A3B0867D0A4FC208B6B2EAD63D /* Pods-JDPopupAnimationView_Example */,
+				DB68F56C4BD86FA067282346E9B49B39 /* Pods-JDPopupAnimationView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47384BE6A468576357C10D64F85E42CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C23A5C9ABADBD87984B7E9CCBF3D683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D183401CC7658256F872FA8C663B2A88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		099AA1DDF8CC6E971C3971F2E7E0105E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E7C20468C4A73DE8ECF8379AE4B3BC /* Pods-JDPopupAnimationView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226EC569615B5C1615A2B472EFA263BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29559B464373E81D61CBA80B33338637 /* Pods-JDPopupAnimationView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B2A63EBB8729043FE47D1407D25701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071476FF132705A6DE0ED9E443DC88D8 /* JDPopupAnimationCover.m in Sources */,
+				6C8A7DAF669014AD6B616A26A3B47577 /* JDPopupAnimationView-dummy.m in Sources */,
+				706CA57C455C5A70415D982FA678B51A /* JDPopupAnimationView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BF78A9B037444DFF27719A5665CBDED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JDPopupAnimationView;
+			target = D531A73BA08B8696DC33BDCE6306F619 /* JDPopupAnimationView */;
+			targetProxy = F063207D149BE9003101EC3AA53627C2 /* PBXContainerItemProxy */;
+		};
+		4A13AB660990173D572DCA0161679EA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JDPopupAnimationView_Example";
+			target = B502C7A3B0867D0A4FC208B6B2EAD63D /* Pods-JDPopupAnimationView_Example */;
+			targetProxy = B13A56A6F9DC2A8F92F56B76CA97A4F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		558549268C160027AC7C64A1AE02B472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC140F17F4F3EC3175CC1030FA6F21A /* JDPopupAnimationView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JDPopupAnimationView/JDPopupAnimationView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JDPopupAnimationView/JDPopupAnimationView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JDPopupAnimationView/JDPopupAnimationView.modulemap";
+				PRODUCT_MODULE_NAME = JDPopupAnimationView;
+				PRODUCT_NAME = JDPopupAnimationView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		86AA2362F7E1F09D946D95070714205A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD13AE810AA17A28D0ECA21CC6E0C58A /* Pods-JDPopupAnimationView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JDPopupAnimationView_Example/Pods-JDPopupAnimationView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JDPopupAnimationView_Example/Pods-JDPopupAnimationView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		895E57D435441AE73C0473D4741AC2C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC140F17F4F3EC3175CC1030FA6F21A /* JDPopupAnimationView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JDPopupAnimationView/JDPopupAnimationView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JDPopupAnimationView/JDPopupAnimationView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JDPopupAnimationView/JDPopupAnimationView.modulemap";
+				PRODUCT_MODULE_NAME = JDPopupAnimationView;
+				PRODUCT_NAME = JDPopupAnimationView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A8D02F0B882010AB55DE678A6156E01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A4E4A0C64939351E1D65C3AEEA84E91 /* Pods-JDPopupAnimationView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JDPopupAnimationView_Example/Pods-JDPopupAnimationView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JDPopupAnimationView_Example/Pods-JDPopupAnimationView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA1AEBBC90AA83E9714AEB42EA4BFED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B411D6632961B412FFB947B174555137 /* Pods-JDPopupAnimationView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JDPopupAnimationView_Tests/Pods-JDPopupAnimationView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JDPopupAnimationView_Tests/Pods-JDPopupAnimationView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BBDFDDD8DC3365520488389B753BB498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C530E91D1058165BE1B38FF0F6B56216 /* Pods-JDPopupAnimationView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JDPopupAnimationView_Tests/Pods-JDPopupAnimationView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JDPopupAnimationView_Tests/Pods-JDPopupAnimationView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A2CD35035F2AD5CA29D4E25463F6C34 /* Build configuration list for PBXNativeTarget "Pods-JDPopupAnimationView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDFDDD8DC3365520488389B753BB498 /* Debug */,
+				AA1AEBBC90AA83E9714AEB42EA4BFED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61CBFFAB3459A831D47A8E914333FAC6 /* Build configuration list for PBXNativeTarget "JDPopupAnimationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558549268C160027AC7C64A1AE02B472 /* Debug */,
+				895E57D435441AE73C0473D4741AC2C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AD96AE554755CE73C1FBF6CCC3CC9BE /* Build configuration list for PBXNativeTarget "Pods-JDPopupAnimationView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86AA2362F7E1F09D946D95070714205A /* Debug */,
+				8A8D02F0B882010AB55DE678A6156E01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

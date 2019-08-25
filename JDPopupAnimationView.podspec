@@ -1,42 +1,41 @@
-#
-# Be sure to run `pod lib lint JDPopupAnimationView.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
-  s.name             = 'JDPopupAnimationView'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of JDPopupAnimationView.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+#名称pod install 和 search 时要用到
+s.name         = "JDPopupAnimationView"
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+#版本号
+s.version      = "1.0.0"
 
-  s.homepage         = 'https://github.com/13432414304@163.com/JDPopupAnimationView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '13432414304@163.com' => '13432414304@163.com' }
-  s.source           = { :git => 'https://github.com/13432414304@163.com/JDPopupAnimationView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+#简介
+s.summary      = "轻量级的弹窗动画。"
 
-  s.ios.deployment_target = '8.0'
+#详细介绍,必填
+s.description  = <<-DESC
+轻量级弹窗动画，有渐入、上弹，下降、左移入。右移入等效果。
+DESC
 
-  s.source_files = 'JDPopupAnimationView/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'JDPopupAnimationView' => ['JDPopupAnimationView/Assets/*.png']
-  # }
+#主页地址，填个可以访问的地址就行
+s.homepage     = "https://github.com/Jedediah-S/JDPopupAnimationView.git"
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+#开源协议
+s.license      = { :type => 'MIT', :file => 'LICENSE' }
+
+#作者信息
+s.author       = { 'Jedediah' => '13432414304@163.com' }
+
+#支持平台及版本
+s.platform     = :ios, "9.0"
+
+#项目代码库地址，仅支持http、https。ssh验证不通过
+s.source       = { :git => "https://github.com/Jedediah-S/JDPopupAnimationView.git", :tag => "#{s.version}" }
+
+#代码源文件地址,**/* 表示Classes目录及其子目录下所有文件
+s.source_files  = 'JDPopupAnimationView/Classes/**/*'
+
+#所需的framework，多个用逗号隔开
+s.framework  = "UIKit"
+
+#是否使用ARC
+s.requires_arc = true
+
 end

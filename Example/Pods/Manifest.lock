@@ -1,0 +1,16 @@
+PODS:
+  - JDPopupAnimationView (1.0.0)
+
+DEPENDENCIES:
+  - JDPopupAnimationView (from `../`)
+
+EXTERNAL SOURCES:
+  JDPopupAnimationView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JDPopupAnimationView: 59813764c4433b10235ffe4a9392a1824548c467
+
+PODFILE CHECKSUM: c0715dab023e72e6c844e6e03cb26392d15cce9f
+
+COCOAPODS: 1.7.5

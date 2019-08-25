@@ -7,7 +7,7 @@
 //
 
 #import "JDViewController.h"
-
+#import "PopupRiseView.h"
 @interface JDViewController ()
 
 @end
@@ -24,6 +24,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)clickButton:(id)sender {
+    
+    PopupRiseView *popupView = [[PopupRiseView alloc] initWithFrame:CGRectMake(30, 100, self.view.frame.size.width-60, 500)];
+    [popupView show];
 }
 
 @end
