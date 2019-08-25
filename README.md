@@ -1,4 +1,5 @@
 # JDPopupAnimationView
+## 轻量级弹窗动画
 
 [![CI Status](https://img.shields.io/travis/13432414304@163.com/JDPopupAnimationView.svg?style=flat)](https://travis-ci.org/13432414304@163.com/JDPopupAnimationView)
 [![Version](https://img.shields.io/cocoapods/v/JDPopupAnimationView.svg?style=flat)](https://cocoapods.org/pods/JDPopupAnimationView)
