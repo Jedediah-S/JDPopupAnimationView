@@ -7,7 +7,6 @@
 //
 
 #import "JDPopupAnimationView.h"
-#import "JDPopupAnimationCover.h"
 
 @implementation JDPopupAnimationView
 
@@ -42,7 +41,6 @@
 - (void)remove{
     
     __weak typeof(self) weakSelf = self;
-
     self.cover.dimBackground = NO;
     [UIView animateWithDuration:self.popupDuration animations:^{
         [weakSelf removeAnimate];

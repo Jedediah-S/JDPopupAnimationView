@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JDPopupAnimationCover.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -49,7 +50,7 @@ typedef NS_ENUM(NSInteger,JDPopupAnimate){
 
 - (void)show;
 - (void)remove;
-
+- (void)showAnimate;
 @end
 
 NS_ASSUME_NONNULL_END

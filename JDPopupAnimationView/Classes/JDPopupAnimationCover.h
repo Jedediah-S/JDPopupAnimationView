@@ -13,9 +13,6 @@ NS_ASSUME_NONNULL_BEGIN
 @interface JDPopupAnimationCover : UIView
 
 @property (nonatomic,assign) BOOL dimBackground;
-@property (nonatomic,assign) BOOL touchEnable;
-@property (nonatomic,assign) CGFloat popupDuration;
-
 /**
  点击block调用
  */

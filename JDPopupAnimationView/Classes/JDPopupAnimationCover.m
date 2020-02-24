@@ -8,7 +8,13 @@
 
 #import "JDPopupAnimationCover.h"
 
+@interface JDPopupAnimationCover ()
 
+
+@property (nonatomic,assign) BOOL touchEnable;
+@property (nonatomic,assign) CGFloat popupDuration;
+
+@end
 @implementation JDPopupAnimationCover
 
 + (instancetype)initCoverWithDimbg:(BOOL)dimBg touchEnabel:(BOOL)touchEnabel popupDuration:(CGFloat)popupDuration{
