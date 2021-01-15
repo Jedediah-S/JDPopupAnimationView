@@ -38,7 +38,31 @@
         [weakSelf showAnimate];
     }];
 }
+
+- (void)showWithAlpha:(CGFloat)alpha hasRemoveAnimation:(BOOL)hasRemoveAnimation {
+    __weak typeof(self) weakSelf = self;
+       
+    self.cover = [JDPopupAnimationCover initCoverWithDimbg:self.dimBackground touchEnabel:self.touchEnable popupDuration:self.popupDuration];
+    self.cover.alpha = alpha;
+    self.cover.popupAnimationCoverTouchBlock = ^{
+        if (hasRemoveAnimation) {
+            [weakSelf remove];
+        } else {
+            [weakSelf removeWithNoAnimation];
+        }
+    };
+   
+    [[UIApplication sharedApplication].keyWindow addSubview:self];
+   
+    [UIView animateWithDuration:self.popupDuration animations:^{
+        [weakSelf showAnimate];
+    }];
+}
+
 - (void)remove{
+    if (self.disappearBlock) {
+        self.disappearBlock();
+    }
     
     __weak typeof(self) weakSelf = self;
     self.cover.dimBackground = NO;
@@ -48,6 +72,17 @@
         [weakSelf.cover removeFromSuperview];
         [weakSelf removeFromSuperview];
     }];
+}
+
+- (void)removeWithNoAnimation {
+    if (self.disappearBlock) {
+        self.disappearBlock();
+    }
+    
+    self.cover.dimBackground = NO;
+    [self removeAnimate];
+    [self.cover removeFromSuperview];
+    [self removeFromSuperview];
 }
 
 #pragma mark - animate

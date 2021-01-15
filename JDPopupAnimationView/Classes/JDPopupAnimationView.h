@@ -48,8 +48,12 @@ typedef NS_ENUM(NSInteger,JDPopupAnimate){
  */
 @property (nonatomic,assign) CGFloat popupDuration;
 
+@property (nonatomic, copy) void(^disappearBlock)(void);
+
 - (void)show;
+- (void)showWithAlpha:(CGFloat)alpha hasRemoveAnimation:(BOOL)hasRemoveAnimation;   //设置蒙层透明度
 - (void)remove;
+- (void)removeWithNoAnimation;          //移除时，不带动画
 - (void)showAnimate;
 @end
 

@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 s.name         = "JDPopupAnimationView"
 
 #版本号
-s.version      = "1.0.2"
+s.version      = "1.0.3"
 
 #简介
 s.summary      = "轻量级的弹窗动画。"
